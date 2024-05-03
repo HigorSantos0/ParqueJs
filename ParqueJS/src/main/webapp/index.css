@@ -1,0 +1,28 @@
+table.table {
+  width: 100%; /* Define a largura da tabela para 100% */
+  margin-bottom: 20px; /* Adiciona espaçamento abaixo da tabela */
+}
+
+table.table thead th {
+  background-color: #f0f0f0; /* Cor de fundo dos cabeçalhos */
+  font-weight: bold; /* Texto em negrito */
+  text-align: center; /* Alinhamento central do texto */
+  padding: 10px; /* Espaçamento interno das células */
+}
+
+table.table tbody tr {
+  border-bottom: 1px solid #ddd; /* Borda inferior em cada linha */
+}
+
+table.table tbody td {
+  padding: 8px; /* Espaçamento interno das células */
+  text-align: left; /* Alinhamento à esquerda do texto */
+  vertical-align: middle; /* Alinhamento vertical no meio */
+}
+
+table.table tfoot th {
+  background-color: #ddd; /* Cor de fundo do rodapé */
+  font-weight: bold; /* Texto em negrito */
+  text-align: right; /* Alinhamento à direita do texto */
+  padding: 10px; /* Espaçamento interno das células */
+}
